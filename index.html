@@ -7,15 +7,41 @@
 	<script type="text/javascript" src="/scripts/OrbitControls.js"></script>
 	<script type="text/javascript" src="/scripts/script.js"></script>
 
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" type="text/css" href="/styles/styles.css">
 </head>
-<body onload="init()">
+<body>
 	<div class="datos">
-		
+		<div class="column">
+			<div>
+				<input id="f" type="text" placeholder="Write here the function" value="2 * Cos(1/2 * x) + (x * 0.5) + ((x^2) / 12)">
+			</div>
+		</div>
+
+		<div class="column">
+			<div><u>Math functions</u>: Log, Sin, Cos, Tan, ASin, ACos, ATan, SinH, CosH, TanH, ASinH, ACosH, ATanH</div>
+
+			<div><u>Constants</u>: Pi, E</div>
+
+			<div><u>Vars</u>: X (to draw in 2D) and Y (to draw in 3D)</div>
+
+			<div>
+				<button onclick="draw()">Draw it!</button>
+			</div>
+		</div>
+
+		<div class="column language">
+			<div>Sorry Firefox, i really <3 you, but...</div>
+			<div>do you want to see it running really faster? Use Chrome</div>
+
+			<div>EN - ES</div>
+		</div>
 	</div>
 
 	<div class="canvas">
-		
+		<span class="loading">Loading...</span>
 	</div>
+
+	<div class="credits">By @BrodaNoel</div>
 </body>
 </html>

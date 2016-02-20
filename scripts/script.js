@@ -7,14 +7,41 @@ var scene,
 	WIDTH,
 	HEIGHT,
 
-	f = 'Math.sin(x) * 2 + Math.log10(x)',
+	functions = [
+		{from: /Log/gi, to: 'Math.log'},
+
+		{from: /Sin/gi, to: 'Math.sin'},
+		{from: /Cos/gi, to: 'Math.cos'},
+		{from: /Tan/gi, to: 'Math.tan'},
+
+		{from: /ASin/gi, to: 'Math.asin'},
+		{from: /ACos/gi, to: 'Math.acos'},
+		{from: /ATan/gi, to: 'Math.atan'},
+
+		{from: /SinH/gi, to: 'Math.sinh'},
+		{from: /CosH/gi, to: 'Math.cosh'},
+		{from: /TanH/gi, to: 'Math.tanh'},
+
+		{from: /ASinH/gi, to: 'Math.asinh'},
+		{from: /ACosH/gi, to: 'Math.acosh'},
+		{from: /ATanH/gi, to: 'Math.atanh'},
+
+		// Exponente 2^2
+		{from: /(\d*|x|y)\^(\d*|x|y)/gi, to: 'Math.pow($1, $2)'}
+	],
+	constants = [
+		{from: /Pi/gi, to: 'Math.PI'},
+		{from: /E/gi, to: 'Math.E'}
+	],
+
+	f,
 
 	x = {
 		from: -10,
 		to: 10,
 
 		current: -10,
-		increment: 0.05
+		increment: 0.1
 	},
 
 	coors = [],
@@ -32,9 +59,30 @@ var scene,
 			y: -10,
 			z: -10
 		}
-	};
+	},
 
-function init() {
+	time;
+
+function draw() {
+	// INiciamos el timmer
+	time = new Date().getTime();
+
+	document.querySelector('.canvas .loading').style.display = 'block';
+
+	init();
+	// show_time('init');
+
+	config();
+	// show_time('config');
+
+	define_coors();
+	// show_time('define_coors');
+
+	define_points();
+	// show_time('define_points');
+
+	document.querySelector('.canvas .loading').style.display = 'none';
+
 	canvas = document.querySelector('.canvas');
 	WIDTH = canvas.getBoundingClientRect().width;
 	HEIGHT = canvas.getBoundingClientRect().height;
@@ -52,20 +100,81 @@ function init() {
 	controls.dampingFactor = 0.25;
 	controls.enableZoom = true;
 
-	define_coors();
-	define_points();
+	// show_time('things...');
 
 	draw_vertices();
+	// show_time('draw_vertices');
+
 	draw_points();
+	// show_time('draw_points');
 
 	render();
+	// show_time('render');
+	
+
+	show_time('all');
+}
+
+function init() {
+	// Eliminamos los canvas
+	var losCanvas = document.querySelectorAll('.canvas canvas');
+
+	if(losCanvas.length > 0) {
+		for (var i = losCanvas.length - 1; i >= 0; i--) {
+			losCanvas[i].remove();
+		}
+	}
+
+	x = {
+		from: -10,
+		to: 10,
+
+		current: -10,
+		increment: 0.1
+	};
+	coors = [];
+	points = [];
+
+	style = {
+		material: new THREE.PointsMaterial({color: 0xFFFFFF, size: this.x.increment / 10}),
+		max: {
+			x: 10,
+			y: 10,
+			z: 10
+		},
+		min: {
+			x: -10,
+			y: -10,
+			z: -10
+		}
+	};
+}
+
+function config() {
+	f = document.getElementById('f').value;
+
+	// Eliminamos los espacios
+	f = f.replace(/\s/g, '');
+
+	// Cambiamos , por .
+	f = f.replace(/\,/g, '.');
+
+	// Reemplazamos las funciones por las nativas
+	functions.forEach(function(funct) {
+		f = f.replace(funct.from, funct.to);
+	});
+
+	// Reemplazamos las constantes por las nativas
+	constants.forEach(function(c) {
+		f = f.replace(c.from, c.to);
+	});
 }
 
 function define_coors() {
 	while(x.current <= x.to) {
-		var y = eval(f.replace(/x/g, x.current));
+		var y = eval(f.replace(/x/gi, x.current));
 
-		if(!isNaN(y)){
+		if(isFinite(y)){
 			coors.push({
 				x: x.current,
 				y: y,
@@ -141,4 +250,13 @@ function render() {
 
 	controls.update();
 	renderer.render(scene, camera);
+}
+
+function show_time(text) {
+	if(typeof time !== 'undefined'){
+		var mili = new Date().getTime();
+		console.log((mili - time) / 1000, 'seconds to do:', text);
+	}
+
+	time = new Date().getTime();
 }

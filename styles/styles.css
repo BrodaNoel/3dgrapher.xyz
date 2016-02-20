@@ -1,15 +1,52 @@
 body {
 	margin: 0;
+	box-sizing: border-box;
+}
+
+* {
+	font-family: 'Open Sans', sans-serif;
+	box-sizing: border-box;
 }
 
 .datos {
-	width: 100%;
-	height: 100px;
+    width: 100%;
+    height: 140px;
 	background-color: #111;
-	color: #FFF;
+    color: #FFF;
+    overflow: hidden;
+    padding: 10px;
+}
+
+.datos .column {
+	float: left;
+	width: 33.33%;
+}
+
+.datos .column.language {
+	text-align: right;
+}
+
+.datos input {
+	width: calc(100% - 10px);
 }
 
 .canvas {
 	width: 100%;
-	height: calc(100vh - 100px);
+	height: calc(100vh - 140px - 30px);
+	position: relative;
+}
+
+.canvas .loading {
+	display: none;
+	
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.credits {
+	text-align: center;
+	height: 30px;
+	line-height: 30px;
 }
