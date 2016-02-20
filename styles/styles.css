@@ -1,0 +1,15 @@
+body {
+	margin: 0;
+}
+
+.datos {
+	width: 100%;
+	height: 100px;
+	background-color: #111;
+	color: #FFF;
+}
+
+.canvas {
+	width: 100%;
+	height: calc(100vh - 100px);
+}

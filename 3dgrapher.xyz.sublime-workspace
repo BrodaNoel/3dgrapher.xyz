@@ -1,0 +1,2005 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"cons",
+				"controls"
+			],
+			[
+				"backre",
+				"background-repeat"
+			],
+			[
+				"para",
+				"params"
+			],
+			[
+				"tuto",
+				"tutorial"
+			],
+			[
+				"remove",
+				"removeLightbox"
+			],
+			[
+				"x",
+				"translateX"
+			],
+			[
+				"translate",
+				"translateX"
+			],
+			[
+				"animar",
+				"animarVerticalmente"
+			],
+			[
+				"label",
+				"labelCoor"
+			],
+			[
+				"labe",
+				"labelCoor"
+			],
+			[
+				"he",
+				"hidden"
+			],
+			[
+				"bo",
+				"bottom"
+			],
+			[
+				"get",
+				"getLightbox"
+			],
+			[
+				"ultimo",
+				"ultimoChat"
+			],
+			[
+				"chat",
+				"chats"
+			],
+			[
+				"id_",
+				"id_usuario"
+			],
+			[
+				"de",
+				"defaultCss"
+			],
+			[
+				"defa",
+				"defaultKeys"
+			],
+			[
+				"fu",
+				"function"
+			],
+			[
+				"tex",
+				"text-align"
+			],
+			[
+				"rb",
+				"rgba()"
+			],
+			[
+				"pos",
+				"position"
+			],
+			[
+				"globa",
+				"global"
+			],
+			[
+				"max",
+				"max-height"
+			],
+			[
+				"table",
+				"table-cell"
+			],
+			[
+				"cur",
+				"cursor"
+			],
+			[
+				"bacre",
+				"background-repeat"
+			],
+			[
+				"is_a",
+				"is_array"
+			],
+			[
+				"chi",
+				"childs"
+			],
+			[
+				"for",
+				"for	for …"
+			],
+			[
+				"chil",
+				"childs"
+			],
+			[
+				"border-co",
+				"border-color"
+			],
+			[
+				"pren",
+				"prendas"
+			],
+			[
+				"str_re",
+				"str_replace"
+			],
+			[
+				"id_col",
+				"id_color_generalizado"
+			],
+			[
+				"hea",
+				"header"
+			],
+			[
+				"sub_ca",
+				"sub_categoria"
+			],
+			[
+				"cateo",
+				"categoria"
+			],
+			[
+				"categ",
+				"categoria"
+			],
+			[
+				"uc",
+				"ucwords"
+			],
+			[
+				"fuentegris",
+				"fuente-gris-oscura"
+			],
+			[
+				"gris-cl",
+				"linea-gris-clara"
+			],
+			[
+				"con",
+				"constantes"
+			],
+			[
+				"html",
+				"htmlentities"
+			],
+			[
+				"password",
+				"password1"
+			],
+			[
+				"retr",
+				"return"
+			],
+			[
+				"existe",
+				"yaExiste"
+			],
+			[
+				"mar",
+				"margin"
+			],
+			[
+				"ya",
+				"yaExiste"
+			],
+			[
+				"dbli",
+				"dblink"
+			],
+			[
+				"upload",
+				"uploadFolder"
+			],
+			[
+				"files",
+				"filesPrincipal"
+			],
+			[
+				"DENO",
+				"DENOMINACION"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"ov",
+				"overflow"
+			],
+			[
+				"marg",
+				"margin-top"
+			],
+			[
+				"categor",
+				"categorias"
+			],
+			[
+				"valor",
+				"valorNecesario"
+			],
+			[
+				"font",
+				"font-weight"
+			],
+			[
+				"error",
+				"errores"
+			],
+			[
+				"vari",
+				"variableValidando"
+			],
+			[
+				"valida",
+				"validacionesSolicitadas"
+			],
+			[
+				"arramer",
+				"array_merge"
+			],
+			[
+				"strre",
+				"str_replace"
+			],
+			[
+				"erro",
+				"errores"
+			],
+			[
+				"array_m",
+				"array_merge"
+			],
+			[
+				"option",
+				"options"
+			],
+			[
+				"var",
+				"var_dump"
+			],
+			[
+				"re",
+				"ret	return"
+			],
+			[
+				"acc",
+				"acciones"
+			],
+			[
+				"conte",
+				"contenedorAcciones"
+			],
+			[
+				"file",
+				"fileupload"
+			],
+			[
+				"text",
+				"textarea"
+			],
+			[
+				"oci_fetch_a",
+				"oci_fetch_assoc"
+			],
+			[
+				"in",
+				"inline"
+			],
+			[
+				"type",
+				"typeof"
+			],
+			[
+				"id",
+				"id_categoria"
+			],
+			[
+				"db",
+				"dblinkOracle"
+			],
+			[
+				"oci_fet",
+				"oci_fetch_array"
+			],
+			[
+				"form",
+				"formToJSON"
+			],
+			[
+				"key",
+				"keyCode"
+			],
+			[
+				"th",
+				"throw	Throw Exception"
+			],
+			[
+				"arra",
+				"array"
+			],
+			[
+				"oci_fetc",
+				"oci_fetch_assoc"
+			],
+			[
+				"requi",
+				"require_once"
+			],
+			[
+				"strto",
+				"strtoupper"
+			],
+			[
+				"buscador",
+				"buscadorContenedor"
+			],
+			[
+				"pass",
+				"password2"
+			],
+			[
+				"fon",
+				"fondo-naranja-categoria"
+			],
+			[
+				"fondo",
+				"fondo-naranja-categoria"
+			],
+			[
+				"pad",
+				"padding"
+			],
+			[
+				"toggle",
+				"toggleClass"
+			],
+			[
+				"bac",
+				"background-image"
+			],
+			[
+				"padd",
+				"padding"
+			],
+			[
+				"border-b",
+				"border-box"
+			],
+			[
+				"marr",
+				"margin-right"
+			],
+			[
+				"fond",
+				"fondo-naranja-categoria"
+			],
+			[
+				"fuente-n",
+				"fuente-negra"
+			],
+			[
+				"fue",
+				"fuente-blanca"
+			],
+			[
+				"fuente",
+				"fuente-negra"
+			],
+			[
+				"margin",
+				"margin-right"
+			],
+			[
+				"fondo-gr",
+				"fondo-gris-oscuro"
+			],
+			[
+				"fue-g",
+				"fuente-gris-clara"
+			],
+			[
+				"tit",
+				"subTitulo"
+			],
+			[
+				"border",
+				"border-box"
+			],
+			[
+				"boton",
+				"botonFlecha"
+			],
+			[
+				"r",
+				"rgba()"
+			],
+			[
+				"nara",
+				"fondo-naranja-categoria"
+			],
+			[
+				"tabl",
+				"table-cell"
+			],
+			[
+				"table-r",
+				"table-row-group"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"lin",
+				"linea-gris"
+			],
+			[
+				"fonts",
+				"font-size"
+			],
+			[
+				"fuente-na",
+				"fuente-naranja-generos"
+			],
+			[
+				"fondo-gri",
+				"fondo-gris-claro"
+			],
+			[
+				"font-s",
+				"font-size"
+			],
+			[
+				"fuen",
+				"fuente-blanca"
+			],
+			[
+				"bacco",
+				"background-color"
+			],
+			[
+				"border-",
+				"border-box"
+			],
+			[
+				"font-w",
+				"font-weight"
+			],
+			[
+				"bord",
+				"border-style"
+			],
+			[
+				"back",
+				"background-image"
+			],
+			[
+				"fecha",
+				"fechaActual"
+			],
+			[
+				"mssql_fetch",
+				"mssql_fetch_assoc"
+			],
+			[
+				"mssql_num",
+				"mssql_num_rows"
+			],
+			[
+				"pa",
+				"padding"
+			],
+			[
+				"ht",
+				"htmlentities"
+			],
+			[
+				"bs",
+				"bxsh	box-shadow: ${1:inset }${2:hoff} ${3:voff} ${4:blur} ${5:color};"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"contents": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n	<meta charset=\"UTF-8\">\n	<title>3D Grapher - Mathematical and Physical Functions</title>\n	<script type=\"text/javascript\" src=\"/scripts/three.min.js\"></script>\n	<script type=\"text/javascript\" src=\"/scripts/script.js\"></script>\n	\n</head>\n<body onload=\"init()\">\n	<div class=\"datos\">\n		\n	</div>\n\n	<div class=\"canvas\">\n		\n	</div>\n</body>\n</html>",
+			"file": "index.html",
+			"file_size": 395,
+			"file_write_time": 131003967085637630,
+			"settings":
+			{
+				"buffer_size": 380,
+				"line_ending": "Windows",
+				"name": "<!DOCTYPE html>"
+			}
+		},
+		{
+			"contents": "var scene = new THREE.Scene();\nvar camera = new THREE.PerspectiveCamera( 75, window.innerWidth/window.innerHeight, 0.1, 1000 );\n\nvar renderer = new THREE.WebGLRenderer();\nrenderer.setSize( window.innerWidth, window.innerHeight );\ndocument.body.appendChild( renderer.domElement );\n\nfunction init() {\n	scene\n\n}",
+			"file": "scripts/script.js",
+			"file_size": 42,
+			"file_write_time": 131003965233001665,
+			"settings":
+			{
+				"buffer_size": 308,
+				"line_ending": "Windows",
+				"name": "asd"
+			}
+		},
+		{
+			"file": "styles/styles.css",
+			"settings":
+			{
+				"buffer_size": 12,
+				"line_ending": "Windows",
+				"name": ".datos {"
+			}
+		}
+	],
+	"build_system": "Packages/SASS Build/SASS - Compressed.sublime-build",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 150.0,
+		"last_filter": "project",
+		"selected_items":
+		[
+			[
+				"project",
+				"Project: Close"
+			],
+			[
+				"indent",
+				"JSON Reindent: reindent file or selection"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"ssjson",
+				"Set Syntax: JSON"
+			],
+			[
+				"ssjs",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"sscss",
+				"Set Syntax: CSS"
+			],
+			[
+				"sshtml",
+				"Set Syntax: HTML"
+			],
+			[
+				"",
+				"About"
+			],
+			[
+				"ssphp",
+				"Set Syntax: PHP"
+			],
+			[
+				"Package Control: remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"set syntax sas",
+				"Set Syntax: Sass"
+			],
+			[
+				"pac contro insta",
+				"Package Control: Install Package"
+			],
+			[
+				"pac contro list",
+				"Package Control: List Packages"
+			],
+			[
+				"install pa",
+				"Package Control: Install Package"
+			],
+			[
+				"pack controll ",
+				"Package Control: List Packages"
+			],
+			[
+				"packge control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"packcontroo",
+				"Package Control: Upgrade/Overwrite All Packages"
+			],
+			[
+				"isntall",
+				"Package Control: Install Package"
+			],
+			[
+				"package Control: ins",
+				"Package Control: Install Package"
+			],
+			[
+				"package Control: ",
+				"Package Control: Discover Packages"
+			],
+			[
+				"up",
+				"Package Control: Upgrade/Overwrite All Packages"
+			],
+			[
+				"package con insta",
+				"Package Control: Install Package"
+			],
+			[
+				"nueva",
+				"Package Control: Upgrade/Overwrite All Packages"
+			],
+			[
+				"pcupda",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"ssjavascr",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"sssass",
+				"Set Syntax: Sass"
+			],
+			[
+				"pacontrolup",
+				"Package Control: Upgrade/Overwrite All Packages"
+			],
+			[
+				"packconlis",
+				"Package Control: List Packages"
+			],
+			[
+				"pacontrdis",
+				"Package Control: Disable Package"
+			],
+			[
+				"pack control ena",
+				"Package Control: Enable Package"
+			],
+			[
+				"paccontrolup",
+				"Package Control: Upgrade/Overwrite All Packages"
+			],
+			[
+				"ss",
+				"Set Syntax: CSS"
+			],
+			[
+				"ssyntax: sass",
+				"Set Syntax: Sass"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"disco",
+				"Package Control: Discover Packages"
+			],
+			[
+				"pcon u",
+				"Package Control: Upgrade/Overwrite All Packages"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: List Packages"
+			],
+			[
+				"ssht",
+				"Set Syntax: HTML5"
+			],
+			[
+				"sscs",
+				"Set Syntax: CSS"
+			],
+			[
+				"Set Syntax: XML",
+				"Set Syntax: XML"
+			],
+			[
+				"set syntax md",
+				"Set Syntax: Markdown"
+			],
+			[
+				"pc",
+				"Package Control: Upgrade/Overwrite All Packages"
+			],
+			[
+				"control",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"enable",
+				"Package Control: Enable Package"
+			],
+			[
+				"disable",
+				"Package Control: Disable Package"
+			],
+			[
+				"Package Control: dis",
+				"Package Control: Disable Package"
+			],
+			[
+				"Package Control: di",
+				"Package Control: Disable Package"
+			],
+			[
+				"Package Control: lis",
+				"Package Control: List Packages"
+			],
+			[
+				"Package Control: up",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"Package Control: upgr",
+				"Package Control: Upgrade/Overwrite All Packages"
+			],
+			[
+				"Package Control: in",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ins",
+				"Package Control: Install Package"
+			],
+			[
+				"html5",
+				"Set Syntax: HTML5"
+			],
+			[
+				"script",
+				"Snippet: <script>"
+			],
+			[
+				"html",
+				"Snippet: html"
+			],
+			[
+				"htm",
+				"Snippet: html"
+			],
+			[
+				"snippet",
+				"Snippet: <canvas>"
+			],
+			[
+				"Package Control: In",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 400.0
+	},
+	"console":
+	{
+		"height": 410.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) ",
+			"import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); open(os.path.join(ipp, pf), 'wb').write(urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ','%20')).read()) "
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/D/git/clients/3dgrapher.xyz",
+		"/D/git/clients/3dgrapher.xyz/scripts"
+	],
+	"file_history":
+	[
+		"/C/Users/Noel/Desktop/noel.txt",
+		"/D/WAMP/www/warriots/src/modulos/seleccion-de-raza/seleccion-de-raza.php",
+		"/D/WAMP/www/warriots/src/modulos/seleccion-de-raza/css/seleccion-de-raza.scss",
+		"/D/WAMP/www/warriots/src/global/externo/threejs/loaders/OrbitControls.js",
+		"/D/WAMP/www/warriots/src/files/mau.mtl",
+		"/D/WAMP/www/warriots/src/global/core/i18nbro/i18nbro.json",
+		"/D/WAMP/www/warriots/src/files/mau.obj",
+		"/D/WAMP/www/warriots/warriots.sublime-project",
+		"/D/WAMP/www/warriots/src/global/externo/threejs/loaders/MTLLoader.js",
+		"/D/WAMP/www/warriots/src/global/externo/threejs/loaders/DDSLoader.js",
+		"/D/WAMP/www/warriots/Gruntfile.js",
+		"/D/WAMP/www/warriots/src/global/externo/threejs/loaders/OBJMTLLoader.js",
+		"/D/WAMP/www/warriots/src/files/escena.json",
+		"/D/WAMP/www/warriots/src/global/externo/threejs/threejs.js",
+		"/C/Users/Noel/Desktop/all info/index.html",
+		"/D/WAMP/www/warriots/src/index.php",
+		"/D/WAMP/www/warriots/src/ajax/ajax.php",
+		"/D/WAMP/www/warriots/src/global/core/php/utils/constantes.php",
+		"/D/WAMP/www/warriots/src/directivas/tutorial/js/tutorial.js",
+		"/D/WAMP/www/warriots/src/directivas/modal/js/modal.js",
+		"/D/WAMP/www/warriots/src/global/core/css/global.scss",
+		"/D/WAMP/www/warriots/src/directivas/chat/css/chat.scss",
+		"/D/WAMP/www/warriots/src/directivas/modal/css/modal.scss",
+		"/D/Google Drive/Warriots/Historia/Raza 04_Unidad Militar Central de Resistencia y Ataque.txt",
+		"/D/WAMP/www/warriots/src/global/core/php/rules/usuarios.php",
+		"/D/WAMP/www/warriots/src/global/core/php/dao/usuarios.php",
+		"/D/WAMP/www/warriots/src/directivas/dock/css/dock.scss",
+		"/D/WAMP/www/warriots/src/global/externo/modalBro/modalBro.js",
+		"/D/WAMP/www/warriots/src/bootstrap.php",
+		"/D/WAMP/www/warriots/src/directivas/config/js/config.js",
+		"/D/WAMP/www/warriots/src/directivas/config/config.php",
+		"/D/WAMP/www/warriots/src/directivas/config/css/config.scss",
+		"/D/WAMP/www/warriots/src/global/externo/font-awesome/4.5.0/css/font-awesome.min.css",
+		"/D/WAMP/www/warriots/src/directivas/modal/modal.php",
+		"/D/WAMP/www/warriots/src/global/core/css/usuario.scss",
+		"/D/WAMP/www/warriots/src/directivas/tutorial/css/tutorial.scss",
+		"/D/WAMP/www/warriots/src/modulos/portada/css/portada.scss",
+		"/D/WAMP/www/warriots/src/global/core/php/utils/db.php",
+		"/D/WAMP/www/warriots/src/global/externo/tutorialBro/tutorialBro.js",
+		"/D/WAMP/www/warriots/src/directivas/tutorial/tutorial.php",
+		"/D/WAMP/www/warriots/src/directivas/chat/chat.php",
+		"/D/WAMP/www/warriots/src/directivas/chat/js/chat.js",
+		"/D/WAMP/www/warriots/src/global/externo/animateRotate/animateRotate.js",
+		"/D/WAMP/www/warriots/src/directivas/chat/i18nbro/i18nbro.json",
+		"/D/WAMP/www/warriots/src/global/core/php/dao/chats.php",
+		"/D/WAMP/www/warriots/src/global/core/php/rules/chats.php",
+		"/D/WAMP/www/warriots/src/directivas/dock/dock.php",
+		"/D/WAMP/www/warriots/src/global/core/js/utils.js",
+		"/D/WAMP/www/warriots/src/modulos/forja/forja.php",
+		"/D/WAMP/www/warriots/src/modulos/forja/css/forja.scss",
+		"/D/WAMP/www/warriots/src/humans.txt",
+		"/D/WAMP/www/warriots/src/robots.txt",
+		"/D/WAMP/www/warriots/src/modulos/diplomacia/css/diplomacia.scss",
+		"/D/WAMP/www/warriots/src/modulos/diplomacia/diplomacia.php",
+		"/D/WAMP/www/warriots/src/modulos/exterior/css/exterior.scss",
+		"/D/WAMP/www/warriots/src/modulos/exterior/exterior.php",
+		"/D/WAMP/www/warriots/src/modulos/feria/css/feria.scss",
+		"/D/WAMP/www/warriots/src/modulos/feria/feria.php",
+		"/D/WAMP/www/warriots/src/modulos/investigacion/css/investigacion.scss",
+		"/D/WAMP/www/warriots/src/modulos/investigacion/investigacion.php",
+		"/D/WAMP/www/warriots/src/modulos/mapa/css/mapa.scss",
+		"/D/WAMP/www/warriots/src/modulos/mapa/mapa.php",
+		"/D/WAMP/www/warriots/src/modulos/obrador/css/obrador.scss",
+		"/D/WAMP/www/warriots/src/modulos/obrador/obrador.php",
+		"/D/WAMP/www/warriots/src/modulos/chat/js/chat.js",
+		"/D/WAMP/www/warriots/src/modulos/mapa/css/obrador.scss",
+		"/D/WAMP/www/warriots/src/modulos/chat/chat.php",
+		"/D/WAMP/www/warriots/src/modulos/chat/css/chat.scss",
+		"/D/WAMP/www/warriots/src/global/core/js/base.js",
+		"/D/WAMP/www/luntor/wwwbeta/ajax/chat.php",
+		"/D/WAMP/www/warriots/src/global/externo/phpValidator/phpValidator.php",
+		"/D/WAMP/www/warriots/src/modulos/chat/i18nbro/i18nbro.json",
+		"/D/WAMP/www/warriots/src/modulos/portada/js/portada.js",
+		"/D/WAMP/www/warriots/src/directivas/logout/logout.php",
+		"/D/WAMP/www/warriots/src/directivas/logout/js/logout.js",
+		"/D/WAMP/www/warriots/src/global/externo/macAlert/macAlert.js",
+		"/D/WAMP/www/warriots/src/global/externo/modalBro/modalBro.scss",
+		"/D/WAMP/www/warriots/src/global/externo/modal/modal.js",
+		"/D/WAMP/www/warriots/src/global/externo/modal/modal.scss",
+		"/D/WAMP/www/warriots/src/directivas/dock/js/dock.js",
+		"/D/WAMP/www/warriots/src/directivas/logout/css/logout.scss",
+		"/D/WAMP/www/warriots/src/modulos/portada/portada.php",
+		"/D/WAMP/www/warriots/src/directivas/porton/css/porton.scss",
+		"/D/WAMP/www/warriots/src/directivas/porton/porton.php",
+		"/D/WAMP/www/warriots/src/global/externo/scrollTo/scrollTo.js",
+		"/D/WAMP/www/warriots/package.json",
+		"/D/WAMP/www/warriots/src/modulos/origen/origen.php",
+		"/D/WAMP/www/warriots/src/modulos/origen/css/origen.scss",
+		"/D/WAMP/www/warriots/src/modulos/origen/css/chat.scss",
+		"/D/WAMP/www/warriots/src/modulos/origen/chat.php",
+		"/D/WAMP/www/warriots/src/global/core/php/dao/login.php",
+		"/D/WAMP/www/warriots/src/directivas/porton/js/porton.js",
+		"/D/WAMP/www/warriots/src/global/core/php/rules/i18nbro.json",
+		"/D/WAMP/www/warriots/src/ajax/i18nbro.json",
+		"/D/WAMP/www/warriots/src/global/externo/i18nbro/i18nbro.php",
+		"/D/WAMP/www/warriots/src/global/externo/macAlert/macAlert.scss",
+		"/D/WAMP/www/warriots/src/global/core/php/dao/i18nbro.json",
+		"/D/WAMP/www/warriots/src/global/core/php/rules/usuario.php",
+		"/D/WAMP/www/warriots/src/.htaccess",
+		"/D/WAMP/www/warriots/src/ajax/global/global.php",
+		"/D/WAMP/www/warriots/src/ajax/registro/registro.php",
+		"/D/WAMP/www/warriots/src/ajax/global/i18nbro.json",
+		"/D/WAMP/www/warriots/src/global/core/php/utils/utils.php",
+		"/D/WAMP/www/warriots/src/modulos/portada/i18nbro/i18nbro.json",
+		"/D/WAMP/www/warriots/src/directivas/porton/i18nbro/i18nbro.json",
+		"/D/WAMP/www/warriots/src/global/core/css/fonts.scss",
+		"/D/WAMP/www/warriots/src/global/externo/dot2array/dot2array.php",
+		"/D/WAMP/www/warriots/src/global/core/css/reset.scss",
+		"/C/Users/Noel/Desktop/Temporal/fonts.css",
+		"/C/Users/Noel/Desktop/Temporal/fonts6.css",
+		"/C/Users/Noel/Desktop/Temporal/fonts3.css",
+		"/C/Users/Noel/Desktop/Temporal/fonts2.css",
+		"/C/Users/Noel/Desktop/Temporal/fonts5.css",
+		"/C/Users/Noel/Desktop/Temporal/fonts4.css",
+		"/D/WAMP/www/warriots/src/httpd.conf",
+		"/D/WAMP/www/warriots/src/hola.html",
+		"/D/WAMP/www/warriots/target/bootstrap.php",
+		"/D/WAMP/www/warriots/src/global/core/css/admin.scss",
+		"/D/WAMP/www/warriots/src/global/core/php/rules/login.php",
+		"/D/WAMP/www/warriots/src/global/core/php/dao/dao.php",
+		"/D/WAMP/www/warriots/src/global/core/php/rules/rules.php",
+		"/D/WAMP/www/warriots/src/global/core/js/global.js",
+		"/D/WAMP/www/warriots/src/global/php/i18nbro/i18nbro.php",
+		"/D/WAMP/www/warriots/src/files/dont-remove.txt",
+		"/D/WAMP/www/warriots/src/global/i18nbro/i18nbro.json",
+		"/D/WAMP/www/warriots/target/global/i18nbro/i18nbro.php",
+		"/D/WAMP/www/warriots/src/modulos/portada/router.php",
+		"/D/WAMP/www/warriots/target/global/i18nbro/i18nbro.json"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 90.0,
+		"where_history":
+		[
+			"D:\\WAMP\\www\\warriots\\src",
+			"D:\\WAMP\\www\\warriots",
+			"D:\\WAMP\\www\\warriots\\src",
+			"D:\\WAMP\\www\\warriots",
+			"D:\\WAMP\\www\\agthy"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"onDocumentMouseMove",
+			"mousemove",
+			"maps\\",
+			"sphere",
+			"\"colorAmbient\" : [0.7, 0.7, 0.7],",
+			".update",
+			"stats",
+			"canvasRenderer",
+			"CanvasRenderer",
+			"xm",
+			"bwebgl",
+			"bcanvas",
+			"bwebgl",
+			"bcanvas",
+			"toggleWebGL",
+			"ad245b58.dds",
+			"d95b3280.dds",
+			"0e3bf8b2.dds",
+			"f71d20d6.dds",
+			"e71c68d2.dds",
+			"3fc5e191.dds",
+			"da01f132.dds",
+			"0e3bf8b2",
+			"mapAmbient",
+			"	\"colorAmbient\" : [0.7, 0.7, 0.7],",
+			"requestAnimationFrame",
+			".js",
+			" \\n",
+			"vegano",
+			"registrar",
+			"z-index",
+			"esLocal",
+			"w.d.porton",
+			"step.label.position",
+			"top: true",
+			"step.label.position.",
+			"transform",
+			"directivas",
+			"w.d.chat.ultimoMensaje",
+			"params",
+			"w.m.chat",
+			".scroll",
+			"scroll",
+			"border",
+			"chat",
+			"w.m.chat.ultimoMensaje",
+			"logout",
+			"$urlBase",
+			"-icon",
+			"$this->dblink",
+			"$dblink",
+			"background-size: center center;",
+			"i18nbro",
+			"jquery",
+			".js",
+			"/globals",
+			"dev_i18n",
+			"We can't connect to the data base. Try again later.",
+			"DirectoryIndex",
+			"index",
+			"texto",
+			"funcionar",
+			"replace",
+			"@",
+			"urlStatic",
+			"index",
+			"    ",
+			"esLocal",
+			"Thin",
+			"dominios",
+			"skeletron.com.ar",
+			"#buscador",
+			"buscador",
+			"buscadorContenedor",
+			"ocasion",
+			"XX",
+			"XXX",
+			"$dblinkOra",
+			"getprendas",
+			"\"ropa",
+			"SELECT *",
+			".ropa",
+			"slide",
+			".error').c",
+			"ui.error",
+			"data.error",
+			"key",
+			"sub_cate",
+			"/mio",
+			"mio",
+			"flecha",
+			".filtro",
+			"No se encontr",
+			"$prenda",
+			".ropa {",
+			".ropa",
+			".ropas",
+			"data.sta",
+			"utils.error",
+			"PorFiltros",
+			"Filtros",
+			"genero",
+			".ui.exito",
+			"buscarPrendas",
+			"ordenarPor",
+			"buscarPrendas",
+			"getPrendasByFil",
+			".genero",
+			"ocasion",
+			"Vete",
+			"Dones",
+			"Los Done",
+			"taver",
+			"wam",
+			"Daily",
+			"34",
+			"john",
+			"John Fo",
+			"cat",
+			"Raider",
+			"wra",
+			"buscar",
+			".tagP1,",
+			"marca",
+			"nuevo",
+			"olores = $('#admin .colores').split('|');",
+			"var colores = $('#admin .colores').split('|');",
+			"split"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"maps/",
+			"",
+			" ",
+			"w.d.modal",
+			"base: 'top'",
+			"w.d.chat",
+			"self::$dblink",
+			"/global",
+			"\\t",
+			"Bold",
+			"warriots.com",
+			"",
+			"Prueba",
+			"admin.stock",
+			"td",
+			"break",
+			"sub_categoria",
+			"categoria",
+			"\"",
+			"categoria",
+			"\"",
+			"#admin #stock",
+			"td",
+			"buscarPrendasPadres",
+			"td",
+			"",
+			"1, '",
+			"0, '",
+			"'id_sexo' => 0,'sexo' => 'mujer'",
+			"'id_sexo' => 1,'sexo' => 'hombre'",
+			"utils.modal(",
+			"direccion",
+			"class=\"ropa\"",
+			"ui flechita",
+			"flechita",
+			"(../img",
+			"$urlStatic",
+			"\"marca\"",
+			"\"prenda\"",
+			"<div class=\"tagP1\">NUEVO</div>",
+			"catalogovaqueria.com",
+			"#admin",
+			" ",
+			"span",
+			"11/22/2012",
+			"ensayo1.com.ar",
+			"agthy.com",
+			"Secretaría",
+			"label",
+			"agthy.loadFile",
+			"agthy.headerClick",
+			"agthy.start",
+			"agthy.started",
+			"agthy.inited",
+			"agthy.init",
+			"TÉCNICAS",
+			"));\n",
+			"demi",
+			"local",
+			"http://agthy.com/fonts/Agthy-book",
+			"Agthy-book",
+			"switchContents",
+			"$content_open",
+			"agthy_content_open",
+			"$content_load",
+			"agthy.$content_chat",
+			"$head",
+			"document.getElementById",
+			"document",
+			"agthy",
+			"agthy.com",
+			"<?php e('noel'); ?>",
+			"<?php e('$'); ?>",
+			"<?php e('*'); ?>",
+			"azúcar",
+			"ción",
+			"ó",
+			"<a href=\"/\"><?php e('Inicio'); ?></a>",
+			"borrar",
+			"leer",
+			"crear",
+			"facebook.status",
+			"soyutn.com.ar",
+			"\"numeric\"",
+			"<div>",
+			"",
+			"sddm",
+			"#EBE8E4",
+			"#F7F5F2",
+			"",
+			"fonts",
+			"\"Yoinas\"",
+			"\"yoinas\"",
+			"",
+			"/src/media/css",
+			"returntrans(",
+			"echotrans(",
+			"</div>",
+			"<div class=\"nav_item\">",
+			"",
+			"sinopsis",
+			"showPopup",
+			"<br>'",
+			"Publicar Proyectos",
+			"/fonts/",
+			"$_CONFIG['idioma']['browser']",
+			"$_CONFIG['idioma']['idiomaBrowser']",
+			"$_CONFIG['idioma']['idiomaTraducir']",
+			"$_CONFIG['subDominio']",
+			"$_CONFIG['idioma']['browser']",
+			"$_IDIOMA['browser']",
+			"require_once '../funciones/db.php';",
+			"$idiomaTraducir",
+			"$idiomasValidos",
+			"e(",
+			"'xxxxxx' => array(\n			'de' => null,\n			'en' => 'xxxxxx',\n			'fr' => null,\n			'po' => null\n		)",
+			"\\n",
+			"estado",
+			"luntor.com",
+			"h2",
+			"luntor.com",
+			"Luntor",
+			"<br>\\n",
+			"<br>",
+			"encodeURIComponent(",
+			"po_vercarrito.php",
+			"$nombre_proyecto",
+			"$row"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 380,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								267,
+								267
+							]
+						],
+						"settings":
+						{
+							"auto_name": "<!DOCTYPE html>",
+							"syntax": "Packages/PHP/PHP.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "scripts/script.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 308,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								306,
+								306
+							]
+						],
+						"settings":
+						{
+							"auto_name": "asd",
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "styles/styles.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 12,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								10,
+								10
+							]
+						],
+						"settings":
+						{
+							"auto_name": ".datos {",
+							"syntax": "Packages/CSS/CSS.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": false,
+	"output.exec":
+	{
+		"height": 65.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.xdebug":
+	{
+		"height": 144.0
+	},
+	"pinned_build_system": "",
+	"project": "3dgrapher.xyz.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"seleccion",
+				"src\\modulos\\seleccion-de-raza\\seleccion-de-raza.php"
+			],
+			[
+				"selec.css",
+				"src\\modulos\\seleccion-de-raza\\css\\seleccion-de-raza.scss"
+			],
+			[
+				"three",
+				"src\\global\\externo\\threejs\\threejs.js"
+			],
+			[
+				"index",
+				"src\\index.php"
+			],
+			[
+				"consta",
+				"src\\global\\core\\php\\utils\\constantes.php"
+			],
+			[
+				"ajax",
+				"src\\ajax\\ajax.php"
+			],
+			[
+				"rulesusu",
+				"src\\global\\core\\php\\rules\\usuarios.php"
+			],
+			[
+				"daou",
+				"src\\global\\core\\php\\dao\\usuarios.php"
+			],
+			[
+				"global.css",
+				"src\\global\\core\\css\\global.scss"
+			],
+			[
+				"globa.css",
+				"src\\global\\core\\css\\global.scss"
+			],
+			[
+				"doc.css",
+				"src\\directivas\\dock\\css\\dock.scss"
+			],
+			[
+				"chat.css",
+				"src\\directivas\\chat\\css\\chat.scss"
+			],
+			[
+				"modal.js",
+				"src\\directivas\\modal\\js\\modal.js"
+			],
+			[
+				"modal",
+				"src\\directivas\\modal\\css\\modal.scss"
+			],
+			[
+				"global.json",
+				"src\\global\\core\\i18nbro\\i18nbro.json"
+			],
+			[
+				"config",
+				"src\\directivas\\config\\config.php"
+			],
+			[
+				"modal.css",
+				"src\\directivas\\modal\\css\\modal.scss"
+			],
+			[
+				"config.css",
+				"src\\directivas\\config\\css\\config.scss"
+			],
+			[
+				"con",
+				"src\\global\\core\\php\\utils\\constantes.php"
+			],
+			[
+				"confi",
+				"src\\directivas\\config\\css\\config.scss"
+			],
+			[
+				"inde",
+				"src\\index.php"
+			],
+			[
+				"config.js",
+				"src\\directivas\\config\\js\\config.js"
+			],
+			[
+				"confi.scss",
+				"src\\directivas\\config\\css\\config.scss"
+			],
+			[
+				"usu",
+				"src\\global\\core\\css\\usuario.scss"
+			],
+			[
+				"modalbro",
+				"src\\global\\externo\\modalBro\\modalBro.js"
+			],
+			[
+				"porta.css",
+				"src\\modulos\\portada\\css\\portada.scss"
+			],
+			[
+				"rulesusuar",
+				"src\\global\\core\\php\\rules\\usuarios.php"
+			],
+			[
+				"daousuario",
+				"src\\global\\core\\php\\dao\\usuarios.php"
+			],
+			[
+				"tuto.scss",
+				"src\\directivas\\tutorial\\css\\tutorial.scss"
+			],
+			[
+				"rulesusuario",
+				"src\\global\\core\\php\\rules\\usuarios.php"
+			],
+			[
+				"ajax.php",
+				"src\\ajax\\ajax.php"
+			],
+			[
+				"db",
+				"src\\global\\core\\php\\utils\\db.php"
+			],
+			[
+				"daousuarios",
+				"src\\global\\core\\php\\dao\\usuarios.php"
+			],
+			[
+				"rulesusuarios",
+				"src\\global\\core\\php\\rules\\usuarios.php"
+			],
+			[
+				"tutorialbro",
+				"src\\global\\externo\\tutorialBro\\tutorialBro.js"
+			],
+			[
+				"tutorial.php",
+				"src\\directivas\\tutorial\\tutorial.php"
+			],
+			[
+				"tutorial.js",
+				"src\\directivas\\tutorial\\js\\tutorial.js"
+			],
+			[
+				"cons",
+				"src\\global\\core\\php\\utils\\constantes.php"
+			],
+			[
+				"constan",
+				"src\\global\\core\\php\\utils\\constantes.php"
+			],
+			[
+				"global.scss",
+				"src\\global\\core\\css\\global.scss"
+			],
+			[
+				"tuto",
+				"src\\directivas\\tutorial\\js\\tutorial.js"
+			],
+			[
+				"tutial.js",
+				"src\\directivas\\tutorial\\js\\tutorial.js"
+			],
+			[
+				"grunt",
+				"Gruntfile.js"
+			],
+			[
+				"dockcss",
+				"src\\directivas\\dock\\css\\dock.scss"
+			],
+			[
+				"bas",
+				"src\\global\\core\\css\\global.scss"
+			],
+			[
+				"daochat",
+				"src\\global\\core\\php\\dao\\chats.php"
+			],
+			[
+				"utils",
+				"src\\global\\core\\js\\utils.js"
+			],
+			[
+				"doc",
+				"src\\directivas\\dock\\dock.php"
+			],
+			[
+				"usua",
+				"src\\global\\core\\css\\usuario.scss"
+			],
+			[
+				"doc.php",
+				"src\\directivas\\dock\\dock.php"
+			],
+			[
+				"globa.js",
+				"src\\global\\core\\js\\base.js"
+			],
+			[
+				"dock",
+				"src\\directivas\\dock\\css\\dock.scss"
+			],
+			[
+				"chat.scss",
+				"src\\modulos\\chat\\css\\chat.scss"
+			],
+			[
+				"chat.php",
+				"src\\modulos\\chat\\chat.php"
+			],
+			[
+				"phpval",
+				"src\\global\\externo\\phpValidator\\phpValidator.php"
+			],
+			[
+				"chat.js",
+				"src\\modulos\\chat\\js\\chat.js"
+			],
+			[
+				"base.js",
+				"src\\global\\core\\js\\base.js"
+			],
+			[
+				"usuar",
+				"src\\global\\core\\css\\usuario.scss"
+			],
+			[
+				"us",
+				"src\\global\\core\\css\\usuario.scss"
+			],
+			[
+				"index.",
+				"src\\index.php"
+			],
+			[
+				"usuario",
+				"src\\global\\core\\css\\usuario.scss"
+			],
+			[
+				"grun",
+				"Gruntfile.js"
+			],
+			[
+				"glo",
+				"src\\global\\core\\css\\global.scss"
+			],
+			[
+				"global",
+				"src\\global\\core\\css\\global.scss"
+			],
+			[
+				"globa.scss",
+				"src\\global\\core\\css\\global.scss"
+			],
+			[
+				"usuario.",
+				"src\\global\\core\\css\\usuario.scss"
+			],
+			[
+				"portada.php",
+				"src\\modulos\\portada\\portada.php"
+			],
+			[
+				"portada.js",
+				"src\\modulos\\portada\\js\\portada.js"
+			],
+			[
+				"macaler",
+				"src\\global\\externo\\macAlert\\macAlert.js"
+			],
+			[
+				"porton.scss",
+				"src\\directivas\\porton\\css\\porton.scss"
+			],
+			[
+				"porton.php",
+				"src\\directivas\\porton\\porton.php"
+			],
+			[
+				"boot",
+				"src\\bootstrap.php"
+			],
+			[
+				"admin.",
+				"src\\public\\css\\admin.scss"
+			],
+			[
+				"texto",
+				"wwwbeta/lib/textos/genericos.php"
+			],
+			[
+				"fun",
+				"wwwbeta/lib/local/funciones.php"
+			],
+			[
+				"proxi",
+				"wwwbeta/proximamente/proximamente.php"
+			],
+			[
+				"estil",
+				"wwwbeta/static/css/estilo.scss"
+			],
+			[
+				"fuente",
+				"wwwbeta/static/css/fuentes.css"
+			],
+			[
+				"funtes",
+				"wwwbeta/static/css/fuentes.css"
+			],
+			[
+				"textos",
+				"wwwbeta/lib/local/textos.php"
+			],
+			[
+				"index.php",
+				"wwwbeta/index.php"
+			],
+			[
+				".ht",
+				".htaccess"
+			],
+			[
+				"funciones",
+				"wwwbeta/lib/local/funciones.php"
+			],
+			[
+				"func",
+				"wwwbeta/static/js/local/funciones.js"
+			],
+			[
+				"human",
+				"humans.txt"
+			],
+			[
+				"db.php",
+				"wwwbeta/lib/local/db.php"
+			],
+			[
+				"estilo",
+				"wwwbeta/static/css/estilo.scss"
+			],
+			[
+				"funjs",
+				"wwwbeta/static/js/local/funciones.js"
+			],
+			[
+				"nue",
+				"wwwbeta/admin/catalogo/nueva.php"
+			],
+			[
+				"ini",
+				"wwwbeta/inicio/inicio.php"
+			],
+			[
+				"pren",
+				"wwwbeta/shopping/prenda.php"
+			],
+			[
+				"nuev",
+				"wwwbeta/admin/catalogo/nueva.php"
+			],
+			[
+				"esti",
+				"wwwbeta/static/css/estilo.scss"
+			],
+			[
+				"admin",
+				"wwwbeta/admin/admin.php"
+			],
+			[
+				"est",
+				"wwwbeta/static/css/estilo.scss"
+			],
+			[
+				"prenda",
+				"wwwbeta/shopping/prenda.php"
+			],
+			[
+				"fun.j",
+				"wwwbeta/static/js/local/funciones.js"
+			],
+			[
+				"sho",
+				"wwwbeta/shopping/shopping.php"
+			],
+			[
+				"fun.js",
+				"wwwbeta/static/js/local/funciones.js"
+			],
+			[
+				"nev",
+				"wwwbeta/admin/catalogo/nueva.php"
+			],
+			[
+				"inici",
+				"wwwbeta/inicio/inicio.php"
+			],
+			[
+				"e",
+				"wwwbeta/static/css/estilo.scss"
+			],
+			[
+				"cs",
+				"wwwbeta/static/css/estilo.scss"
+			],
+			[
+				"nueva",
+				"wwwbeta/admin/catalogo/nueva.php"
+			],
+			[
+				"lista",
+				"wwwbeta/shopping/listado.php"
+			],
+			[
+				"listado",
+				"wwwbeta/shopping/listado.php"
+			],
+			[
+				"shop",
+				"wwwbeta/shopping/shopping.php"
+			],
+			[
+				".sc",
+				"wwwbeta/static/css/estilo.scss"
+			],
+			[
+				"favo",
+				"wwwbeta/favoritos/favoritos.php"
+			],
+			[
+				"regis",
+				"wwwbeta/registro/registro.php"
+			],
+			[
+				"uplo",
+				"wwwbeta/lib/local/fileUploader.php"
+			],
+			[
+				"file",
+				"wwwbeta/lib/local/fileUploader.php"
+			],
+			[
+				"funcion",
+				"wwwbeta/lib/local/funciones.php"
+			],
+			[
+				"const",
+				"wwwbeta/lib/local/constantes.php"
+			],
+			[
+				"fil",
+				"wwwbeta/lib/local/fileUploader.php"
+			],
+			[
+				"admin/stoc",
+				"wwwbeta/admin/stock/stock.php"
+			],
+			[
+				"funci",
+				"wwwbeta/static/js/local/funciones.js"
+			],
+			[
+				"admin/st",
+				"wwwbeta/admin/stock/stock.php"
+			],
+			[
+				"ropa",
+				"wwwbeta/shopping/ropa.php"
+			],
+			[
+				"/admin/s",
+				"wwwbeta/admin/stock/stock.php"
+			],
+			[
+				"upload",
+				"wwwbeta/lib/local/fileUploader.php"
+			],
+			[
+				"csc",
+				"wwwbeta/static/css/estilo.scss"
+			],
+			[
+				"/server/php",
+				"wwwbeta/static/uploadfile/server/php/UploadHandler.php"
+			],
+			[
+				"func.js",
+				"wwwbeta/static/js/local/funciones.js"
+			],
+			[
+				"cont",
+				"wwwbeta/lib/local/constantes.php"
+			],
+			[
+				"funcion.js",
+				"wwwbeta/static/js/local/funciones.js"
+			],
+			[
+				"/admin/in",
+				"wwwbeta/admin/admin.php"
+			],
+			[
+				"d",
+				"wwwbeta/lib/local/db.php"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"D:\\WAMP\\www\\yoinas\\yoinas.sublime-workspace"
+			],
+			[
+				"warri",
+				"D:\\WAMP\\www\\warriots\\warriots.sublime-project"
+			],
+			[
+				"vaquer",
+				"C:\\Program Files\\Sublime Text 3\\Projects\\vaqueria.sublime-workspace"
+			],
+			[
+				"va",
+				"C:\\Program Files\\Sublime Text 3\\Projects\\vaqueria.sublime-workspace"
+			],
+			[
+				"vaqu",
+				"C:\\Program Files\\Sublime Text 3\\Projects\\vaqueria.sublime-project"
+			],
+			[
+				"vaque",
+				"/C/Program Files/Sublime Text 2/Projects/vaqueria.sublime-project"
+			],
+			[
+				"masco",
+				"/C/Program Files/Sublime Text 2/Projects/mascotas.sublime-project"
+			],
+			[
+				"ms",
+				"/C/Program Files/Sublime Text 2/Projects/mascotas.sublime-project"
+			],
+			[
+				"mas",
+				"/C/Program Files/Sublime Text 2/Projects/mascotas.sublime-project"
+			],
+			[
+				"skele",
+				"/C/Program Files/Sublime Text 2/Projects/skeletron.sublime-project"
+			],
+			[
+				"masc",
+				"/C/Program Files/Sublime Text 2/Projects/mascotas.sublime-project"
+			],
+			[
+				"cp",
+				"/C/Program Files/Sublime Text 2/Projects/cpcpi.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 392.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 392.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 245.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
