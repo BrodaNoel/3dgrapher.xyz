@@ -3,45 +3,142 @@
 <head>
 	<meta charset="UTF-8">
 	<title>3D Grapher - Mathematical and Physical Functions</title>
+	<script type="text/javascript" src="/scripts/jquery.js"></script>
+	<!-- <script type="text/javascript" src="/scripts/scrollto.js"></script> -->
 	<script type="text/javascript" src="/scripts/three.min.js"></script>
 	<script type="text/javascript" src="/scripts/OrbitControls.js"></script>
 	<script type="text/javascript" src="/scripts/script.js"></script>
 
-	<link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+	<!-- <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'> -->
 	<link rel="stylesheet" type="text/css" href="/styles/styles.css">
+	<link rel="stylesheet" type="text/css" href="/styles/fa/css/font-awesome.min.css">
 </head>
 <body>
 	<div class="datos">
-		<div class="column">
-			<div>
-				<input id="f" type="text" placeholder="Write here the function" value="2 * Cos(1/2 * x) + (x * 0.5) + ((x^2) / 12)">
-			</div>
-		</div>
+		<div class="header">3D Grapher</div>
 
-		<div class="column">
-			<div><u>Math functions</u>: Log, Sin, Cos, Tan, ASin, ACos, ATan, SinH, CosH, TanH, ASinH, ACosH, ATanH</div>
-
-			<div><u>Constants</u>: Pi, E</div>
-
-			<div><u>Vars</u>: X (to draw in 2D) and Y (to draw in 3D)</div>
-
-			<div>
-				<button onclick="draw()">Draw it!</button>
-			</div>
-		</div>
-
+		<!--
 		<div class="column language">
-			<div>Sorry Firefox, i really <3 you, but...</div>
+			<div>Sorry Firefox, I really <3 you, but...</div>
 			<div>do you want to see it running really faster? Use Chrome</div>
 
 			<div>EN - ES</div>
 		</div>
+		-->
+
+		<div class="column left">
+			<div class="title">MATH FUNCTIONS</div>
+			
+			<div>Log</div>
+			<div>Sin, ASin, SinH, ASinH</div>
+			<div>Cos, ACos, CosH, ACosH</div>
+			<div>Tan, ATan, TanH, ATanH</div>
+
+			<div class="adSense">
+				<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+				<!-- 3D-Grapher-Columnas -->
+				<ins class="adsbygoogle"
+					 style="display:block"
+					 data-ad-client="ca-pub-3342214521741372"
+					 data-ad-slot="7322543648"
+					 data-ad-format="auto"></ins>
+				<script>
+				(adsbygoogle = window.adsbygoogle || []).push({});
+				</script>
+			</div>
+		</div>
+
+		<div class="column center">
+			<div>
+				<input id="f" type="text" placeholder="Write here the function" value="2 * Cos(1/2 * x) + (x * 0.5) + ((x^2) / 12) + (Y/2)">
+			</div>
+
+			<div>
+				Evaluate X from <input id="fromx" type="text" value="-10"> to <input id="tox" type="text" value="10"><span class="Ydata">, and evaluate Y from <input id="fromy" type="text" value="-10"> to <input id="toy" type="text" value="10"></span>
+			</div>
+
+			<div class="title">¡YOU NEED TO READ IT!</div>
+
+			<div>
+				In 3D Grapher we don't draw lines or surfaces. Instead of it, we draw points. We give you a rough estimate about how your function looks like. So, if you want to know where the functions doesn't exist it will be a little bit complicated to know. But for your luck, we don't draw a point where the function doesn't exists.<br>
+				If you want to understand a little bit more, try to draw the function: Ln(x), from -10 to 10. And you gonna see we don't draw points where X < 1, because, mathematically, Ln() in X < 1 doesn't exist. Yeah! Math rocks!
+			</div>
+
+			<div>
+				Now that you know we draw points, set how much separated should be the points between them (A smaller number means more points, so, you can see a better function approximation):<br>
+				Separation in X: <input id="incrementx" type="text" value="0.3"><br>
+				<span class="Ydata">Separation in Y: <input id="incrementy" type="text" value="0.3"></span>
+			</div>
+
+			<div>
+				<button class="draw">¡¡¡DRAW IT!!!</button>
+			</div>
+		</div>
+
+		<div class="column right">
+			<div class="title">CONSTANTS</div>
+
+			<div>PI - 3.141592653589793</div>
+			<div>E - 2.718281828459045</div>
+			<div>LN10 - 2.302585092994046</div>
+
+			<div class="adSense">
+				<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+				<!-- 3D-Grapher-Columnas -->
+				<ins class="adsbygoogle"
+					 style="display:block"
+					 data-ad-client="ca-pub-3342214521741372"
+					 data-ad-slot="7322543648"
+					 data-ad-format="auto"></ins>
+				<script>
+				(adsbygoogle = window.adsbygoogle || []).push({});
+				</script>
+			</div>
+		</div>
+
+		<div class="credits">by @BrodaNoel</div>
 	</div>
 
-	<div class="canvas">
+	<div class="canvas hide">
 		<span class="loading">Loading...</span>
 	</div>
 
-	<div class="credits">By @BrodaNoel</div>
+	<div class="return hide"><i class="fa fa-arrow-up"></i> RETURN <i class="fa fa-arrow-up"></i></div>
+
+	<script>
+		$(document).ready(function(){
+			document.getElementById('f').onkeyup = function(){
+				if (this.value.indexOf('y') !== -1 || this.value.indexOf('Y') !== -1) {
+					$('.Ydata').show();
+					style.is3D = true;
+				}else{
+					$('.Ydata').hide();
+					style.is3D = false;
+				}
+			};
+
+			$('.draw').click(function(){
+				$('.canvas, .return').show();
+				continueRendering = true;
+				setTimeout(draw, 100);
+			});
+
+			$('.return').click(function(){
+				$('.canvas, .return').hide();
+				continueRendering = false;
+				$('.canvas canvas').remove();
+			});
+		});
+	</script>
+
+	<script>
+		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+		ga('create', 'UA-172353-42', 'auto');
+		ga('send', 'pageview');
+	</script>
 </body>
 </html>

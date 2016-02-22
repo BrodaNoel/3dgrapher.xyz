@@ -4,8 +4,56 @@
 		"selected_items":
 		[
 			[
+				"baco",
+				"background-color"
+			],
+			[
+				"to",
+				"top"
+			],
+			[
+				"curre",
+				"currentY"
+			],
+			[
+				"cur",
+				"currentY"
+			],
+			[
+				"is",
+				"is3D"
+			],
+			[
 				"cons",
-				"controls"
+				"console"
+			],
+			[
+				"los",
+				"losCanvas"
+			],
+			[
+				"poin",
+				"points"
+			],
+			[
+				"ca",
+				"camera"
+			],
+			[
+				"re",
+				"renderer"
+			],
+			[
+				"vec",
+				"vector"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"wi",
+				"WIDTH"
 			],
 			[
 				"backre",
@@ -102,10 +150,6 @@
 			[
 				"table",
 				"table-cell"
-			],
-			[
-				"cur",
-				"cursor"
 			],
 			[
 				"bacre",
@@ -276,10 +320,6 @@
 				"var_dump"
 			],
 			[
-				"re",
-				"ret	return"
-			],
-			[
 				"acc",
 				"acciones"
 			],
@@ -444,10 +484,6 @@
 				"table-row-group"
 			],
 			[
-				"wi",
-				"width"
-			],
-			[
 				"lin",
 				"linea-gris"
 			],
@@ -478,67 +514,25 @@
 			[
 				"border-",
 				"border-box"
-			],
-			[
-				"font-w",
-				"font-weight"
-			],
-			[
-				"bord",
-				"border-style"
-			],
-			[
-				"back",
-				"background-image"
-			],
-			[
-				"fecha",
-				"fechaActual"
-			],
-			[
-				"mssql_fetch",
-				"mssql_fetch_assoc"
-			],
-			[
-				"mssql_num",
-				"mssql_num_rows"
-			],
-			[
-				"pa",
-				"padding"
-			],
-			[
-				"ht",
-				"htmlentities"
-			],
-			[
-				"bs",
-				"bxsh	box-shadow: ${1:inset }${2:hoff} ${3:voff} ${4:blur} ${5:color};"
 			]
 		]
 	},
 	"buffers":
 	[
 		{
-			"contents": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n	<meta charset=\"UTF-8\">\n	<title>3D Grapher - Mathematical and Physical Functions</title>\n	<script type=\"text/javascript\" src=\"/scripts/three.min.js\"></script>\n	<script type=\"text/javascript\" src=\"/scripts/script.js\"></script>\n	\n</head>\n<body onload=\"init()\">\n	<div class=\"datos\">\n		\n	</div>\n\n	<div class=\"canvas\">\n		\n	</div>\n</body>\n</html>",
 			"file": "index.html",
-			"file_size": 395,
-			"file_write_time": 131003967085637630,
 			"settings":
 			{
-				"buffer_size": 380,
+				"buffer_size": 3735,
 				"line_ending": "Windows",
 				"name": "<!DOCTYPE html>"
 			}
 		},
 		{
-			"contents": "var scene = new THREE.Scene();\nvar camera = new THREE.PerspectiveCamera( 75, window.innerWidth/window.innerHeight, 0.1, 1000 );\n\nvar renderer = new THREE.WebGLRenderer();\nrenderer.setSize( window.innerWidth, window.innerHeight );\ndocument.body.appendChild( renderer.domElement );\n\nfunction init() {\n	scene\n\n}",
 			"file": "scripts/script.js",
-			"file_size": 42,
-			"file_write_time": 131003965233001665,
 			"settings":
 			{
-				"buffer_size": 308,
+				"buffer_size": 6249,
 				"line_ending": "Windows",
 				"name": "asd"
 			}
@@ -547,9 +541,8 @@
 			"file": "styles/styles.css",
 			"settings":
 			{
-				"buffer_size": 12,
-				"line_ending": "Windows",
-				"name": ".datos {"
+				"buffer_size": 1607,
+				"line_ending": "Windows"
 			}
 		}
 	],
@@ -561,9 +554,13 @@
 	"command_palette":
 	{
 		"height": 150.0,
-		"last_filter": "project",
+		"last_filter": "ssjs",
 		"selected_items":
 		[
+			[
+				"ssjs",
+				"Set Syntax: JavaScript"
+			],
 			[
 				"project",
 				"Project: Close"
@@ -579,10 +576,6 @@
 			[
 				"ssjson",
 				"Set Syntax: JSON"
-			],
-			[
-				"ssjs",
-				"Set Syntax: JavaScript"
 			],
 			[
 				"sscss",
@@ -832,10 +825,18 @@
 	"expanded_folders":
 	[
 		"/D/git/clients/3dgrapher.xyz",
-		"/D/git/clients/3dgrapher.xyz/scripts"
+		"/D/git/clients/3dgrapher.xyz/styles",
+		"/D/git/clients/3dgrapher.xyz/styles/fa",
+		"/D/git/clients/3dgrapher.xyz/styles/fa/css"
 	],
 	"file_history":
 	[
+		"/D/git/clients/3dgrapher.xyz/scripts/scrollto.js",
+		"/D/git/clients/3dgrapher.xyz/scripts/jquery.js",
+		"/D/git/clients/3dgrapher.xyz/nurbs.html",
+		"/D/git/clients/3dgrapher.xyz/scripts/mathjs.js",
+		"/D/git/clients/3dgrapher.xyz/scripts/OrbitControls.js",
+		"/D/git/clients/3dgrapher.xyz/styles/styles.css",
 		"/C/Users/Noel/Desktop/noel.txt",
 		"/D/WAMP/www/warriots/src/modulos/seleccion-de-raza/seleccion-de-raza.php",
 		"/D/WAMP/www/warriots/src/modulos/seleccion-de-raza/css/seleccion-de-raza.scss",
@@ -957,17 +958,11 @@
 		"/D/WAMP/www/warriots/src/global/core/php/rules/login.php",
 		"/D/WAMP/www/warriots/src/global/core/php/dao/dao.php",
 		"/D/WAMP/www/warriots/src/global/core/php/rules/rules.php",
-		"/D/WAMP/www/warriots/src/global/core/js/global.js",
-		"/D/WAMP/www/warriots/src/global/php/i18nbro/i18nbro.php",
-		"/D/WAMP/www/warriots/src/files/dont-remove.txt",
-		"/D/WAMP/www/warriots/src/global/i18nbro/i18nbro.json",
-		"/D/WAMP/www/warriots/target/global/i18nbro/i18nbro.php",
-		"/D/WAMP/www/warriots/src/modulos/portada/router.php",
-		"/D/WAMP/www/warriots/target/global/i18nbro/i18nbro.json"
+		"/D/WAMP/www/warriots/src/global/core/js/global.js"
 	],
 	"find":
 	{
-		"height": 23.0
+		"height": 34.0
 	},
 	"find_in_files":
 	{
@@ -986,6 +981,23 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"30px",
+			"Ydata",
+			"20px",
+			"scrollTo(",
+			"Sin",
+			"geometry",
+			"text",
+			"define_coors",
+			"valor",
+			"current",
+			"corrent",
+			"current",
+			"Point",
+			"Line",
+			"replace",
+			"vector",
+			"vectors",
 			"onDocumentMouseMove",
 			"mousemove",
 			"maps\\",
@@ -1096,24 +1108,7 @@
 			".genero",
 			"ocasion",
 			"Vete",
-			"Dones",
-			"Los Done",
-			"taver",
-			"wam",
-			"Daily",
-			"34",
-			"john",
-			"John Fo",
-			"cat",
-			"Raider",
-			"wra",
-			"buscar",
-			".tagP1,",
-			"marca",
-			"nuevo",
-			"olores = $('#admin .colores').split('|');",
-			"var colores = $('#admin .colores').split('|');",
-			"split"
+			"Dones"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -1121,6 +1116,9 @@
 		"regex": false,
 		"replace_history":
 		[
+			"Tan",
+			"Cos",
+			"currentX",
 			"maps/",
 			"",
 			" ",
@@ -1245,10 +1243,7 @@
 			"Luntor",
 			"<br>\\n",
 			"<br>",
-			"encodeURIComponent(",
-			"po_vercarrito.php",
-			"$nombre_proyecto",
-			"$row"
+			"encodeURIComponent("
 		],
 		"reverse": false,
 		"show_context": true,
@@ -1259,7 +1254,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -1268,27 +1263,28 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 380,
+						"buffer_size": 3735,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								267,
-								267
+								2471,
+								2471
 							]
 						],
 						"settings":
 						{
 							"auto_name": "<!DOCTYPE html>",
-							"syntax": "Packages/PHP/PHP.sublime-syntax"
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 469.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
@@ -1297,15 +1293,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 308,
+						"buffer_size": 6249,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								306,
-								306
+								5829,
+								5829
 							]
 						],
 						"settings":
@@ -1314,10 +1310,10 @@
 							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 3462.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 0,
 					"type": "text"
 				},
 				{
@@ -1326,27 +1322,26 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 12,
+						"buffer_size": 1607,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								10,
-								10
+								1428,
+								1428
 							]
 						],
 						"settings":
 						{
-							"auto_name": ".datos {",
 							"syntax": "Packages/CSS/CSS.sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 931.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 2,
 					"type": "text"
 				}
 			]
@@ -1354,7 +1349,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 23.0
+		"height": 22.0
 	},
 	"input":
 	{
@@ -1399,7 +1394,7 @@
 	"project": "3dgrapher.xyz.sublime-project",
 	"replace":
 	{
-		"height": 42.0
+		"height": 40.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -1408,6 +1403,10 @@
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"est",
+				"styles\\styles.css"
+			],
 			[
 				"seleccion",
 				"src\\modulos\\seleccion-de-raza\\seleccion-de-raza.php"
@@ -1783,10 +1782,6 @@
 			[
 				"admin",
 				"wwwbeta/admin/admin.php"
-			],
-			[
-				"est",
-				"wwwbeta/static/css/estilo.scss"
 			],
 			[
 				"prenda",

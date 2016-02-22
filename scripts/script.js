@@ -31,7 +31,8 @@ var scene,
 	],
 	constants = [
 		{from: /Pi/gi, to: 'Math.PI'},
-		{from: /E/gi, to: 'Math.E'}
+		{from: /E/gi, to: 'Math.E'},
+		{from: /LN10/gi, to: 'Math.LN10'}
 	],
 
 	f,
@@ -39,8 +40,12 @@ var scene,
 	x = {
 		from: -10,
 		to: 10,
+		increment: 0.1
+	},
 
-		current: -10,
+	y = {
+		from: -10,
+		to: 10,
 		increment: 0.1
 	},
 
@@ -48,7 +53,8 @@ var scene,
 	points = [],
 
 	style = {
-		material: new THREE.PointsMaterial({color: 0xFFFFFF, size: this.x.increment / 10}),
+		is3D: true,
+		material: new THREE.PointsMaterial({color: 0xFFFFFF, size: this.x.increment / 5}),
 		max: {
 			x: 10,
 			y: 10,
@@ -64,10 +70,8 @@ var scene,
 	time;
 
 function draw() {
-	// INiciamos el timmer
+	// Iniciamos el timmer
 	time = new Date().getTime();
-
-	document.querySelector('.canvas .loading').style.display = 'block';
 
 	init();
 	// show_time('init');
@@ -75,30 +79,33 @@ function draw() {
 	config();
 	// show_time('config');
 
-	define_coors();
+	if(style.is3D)
+		define_coors_3D();
+	else
+		define_coors_2D();
 	// show_time('define_coors');
 
 	define_points();
 	// show_time('define_points');
 
-	document.querySelector('.canvas .loading').style.display = 'none';
+	$('.canvas .loading').hide();
 
 	canvas = document.querySelector('.canvas');
 	WIDTH = canvas.getBoundingClientRect().width;
 	HEIGHT = canvas.getBoundingClientRect().height;
 
 	scene = new THREE.Scene();
-	camera = new THREE.PerspectiveCamera(50, WIDTH / HEIGHT, 0.1, 1000);
-	camera.position.z = 50;
+	camera = new THREE.PerspectiveCamera(40, WIDTH / HEIGHT, 1, 600);
+	camera.position.z = 40;
 
 	renderer = new THREE.WebGLRenderer();
 	renderer.setSize(WIDTH, HEIGHT);
 	canvas.appendChild(renderer.domElement);
 
-	controls = new THREE.OrbitControls(camera, renderer.domElement); 
-	controls.enableDamping = true;
-	controls.dampingFactor = 0.25;
+	controls = new THREE.OrbitControls(camera, renderer.domElement);
 	controls.enableZoom = true;
+	controls.autoRotate = true;
+	controls.autoRotateSpeed = 8;
 
 	// show_time('things...');
 
@@ -116,37 +123,19 @@ function draw() {
 }
 
 function init() {
-	// Eliminamos los canvas
-	var losCanvas = document.querySelectorAll('.canvas canvas');
-
-	if(losCanvas.length > 0) {
-		for (var i = losCanvas.length - 1; i >= 0; i--) {
-			losCanvas[i].remove();
-		}
-	}
-
-	x = {
-		from: -10,
-		to: 10,
-
-		current: -10,
-		increment: 0.1
-	};
 	coors = [];
 	points = [];
 
-	style = {
-		material: new THREE.PointsMaterial({color: 0xFFFFFF, size: this.x.increment / 10}),
-		max: {
-			x: 10,
-			y: 10,
-			z: 10
-		},
-		min: {
-			x: -10,
-			y: -10,
-			z: -10
-		}
+	style.max = {
+		x: 10,
+		y: 10,
+		z: 10
+	};
+
+	style.min = {
+		x: -10,
+		y: -10,
+		z: -10
 	};
 }
 
@@ -168,26 +157,38 @@ function config() {
 	constants.forEach(function(c) {
 		f = f.replace(c.from, c.to);
 	});
+
+	x = {
+		from: Number(document.getElementById('fromx').value),
+		to: Number(document.getElementById('tox').value),
+		increment: Number(document.getElementById('incrementx').value)
+	};
+
+	y = {
+		from: Number(document.getElementById('fromy').value),
+		to: Number(document.getElementById('toy').value),
+		increment: Number(document.getElementById('incrementy').value)
+	};
 }
 
-function define_coors() {
-	while(x.current <= x.to) {
-		var y = eval(f.replace(/x/gi, x.current));
+function define_coors_2D() {
+	for(var currentX = x.from; currentX <= x.to; currentX += x.increment) {
+		var y = eval(f.replace(/x/gi, currentX));
 
 		if(isFinite(y)){
 			coors.push({
-				x: x.current,
+				x: currentX,
 				y: y,
 				z: 0
 			});
 		}
 
 		// X: Max and Min
-		if(x.current < style.min.x)
-			style.min.x = x.current;
+		if(currentX < style.min.x)
+			style.min.x = currentX;
 
-		if(x.current > style.max.x)
-			style.max.x = x.current;
+		if(currentX > style.max.x)
+			style.max.x = currentX;
 
 		// Y: Max and Min
 		if(y < style.min.y)
@@ -195,8 +196,43 @@ function define_coors() {
 
 		if(y > style.max.y)
 			style.max.y = y;
+	}
+}
 
-		x.current += x.increment;
+function define_coors_3D() {
+	for(var currentX = x.from; currentX <= x.to; currentX += x.increment) {
+		for(var currentY = y.from; currentY <= y.to; currentY += y.increment) {
+			var z = eval(f.replace(/x/gi, currentX).replace(/y/gi, currentY));
+
+			if(isFinite(z)){
+				coors.push({
+					x: currentX,
+					y: currentY,
+					z: z
+				});
+			}
+
+			// X: Max and Min
+			if(currentX < style.min.x)
+				style.min.x = currentX;
+
+			if(currentX > style.max.x)
+				style.max.x = currentX;
+
+			// Y: Max and Min
+			if(currentY < style.min.y)
+				style.min.y = currentY;
+
+			if(currentY > style.max.y)
+				style.max.y = currentY;
+
+			// Z: Max and Min
+			if(z < style.min.z)
+				style.min.z = z;
+
+			if(z > style.max.z)
+				style.max.z = z;
+		}
 	}
 }
 
@@ -237,6 +273,9 @@ function draw_vertices() {
 	geometry.vertices.push(new THREE.Vector3(0, 0, style.max.z));
 	material = new THREE.PointsMaterial({color: 0x0000FF});
 	scene.add(new THREE.Line(geometry, material));
+
+	// Textos
+	// TODO
 }
 
 function draw_points() {
@@ -246,10 +285,12 @@ function draw_points() {
 }
 
 function render() {
-	requestAnimationFrame(render);
-
 	controls.update();
 	renderer.render(scene, camera);
+
+	if(continueRendering){
+		requestAnimationFrame(render);
+	}
 }
 
 function show_time(text) {
