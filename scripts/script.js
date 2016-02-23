@@ -50,7 +50,7 @@ var scene,
 	},
 
 	coors = [],
-	points = [],
+	geometry,
 
 	style = {
 		is3D: true,
@@ -85,18 +85,14 @@ function draw() {
 		define_coors_2D();
 	// show_time('define_coors');
 
-	define_points();
-	// show_time('define_points');
-
-	$('.canvas .loading').hide();
-
 	canvas = document.querySelector('.canvas');
 	WIDTH = canvas.getBoundingClientRect().width;
 	HEIGHT = canvas.getBoundingClientRect().height;
 
 	scene = new THREE.Scene();
-	camera = new THREE.PerspectiveCamera(40, WIDTH / HEIGHT, 1, 600);
-	camera.position.z = 40;
+	camera = new THREE.PerspectiveCamera(40, WIDTH / HEIGHT, 1, 1000);
+	camera.position.z = 45;
+	camera.position.y = 10;
 
 	renderer = new THREE.WebGLRenderer();
 	renderer.setSize(WIDTH, HEIGHT);
@@ -105,7 +101,7 @@ function draw() {
 	controls = new THREE.OrbitControls(camera, renderer.domElement);
 	controls.enableZoom = true;
 	controls.autoRotate = true;
-	controls.autoRotateSpeed = 8;
+	controls.autoRotateSpeed = 6;
 
 	// show_time('things...');
 
@@ -118,13 +114,12 @@ function draw() {
 	render();
 	// show_time('render');
 	
-
 	show_time('all');
 }
 
 function init() {
 	coors = [];
-	points = [];
+	geometry = new THREE.Geometry();
 
 	style.max = {
 		x: 10,
@@ -236,17 +231,12 @@ function define_coors_3D() {
 	}
 }
 
-function define_points() {
+function draw_points() {
 	coors.forEach(function(coor) {
-		points.push(create_point(coor.x, coor.y, coor.z));
+		geometry.vertices.push(new THREE.Vector3(coor.x, coor.y, coor.z));
 	});
-}
-
-function create_point(x, y, z) {
-	var geometry = new THREE.Geometry();
-	geometry.vertices.push(new THREE.Vector3(x, y, z));
-
-	return new THREE.Points(geometry, style.material);
+	
+	scene.add(new THREE.Points(geometry, style.material));
 }
 
 function draw_vertices() {
@@ -276,12 +266,6 @@ function draw_vertices() {
 
 	// Textos
 	// TODO
-}
-
-function draw_points() {
-	points.forEach(function(point) {
-		scene.add(point);
-	});
 }
 
 function render() {

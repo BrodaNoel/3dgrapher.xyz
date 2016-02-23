@@ -520,28 +520,10 @@
 	"buffers":
 	[
 		{
-			"file": "index.html",
+			"contents": "var contorlador = function(a, b) {\n	a.call(funciton(){});\n};\n\ncontorlador.$inyect = ['$timeout', 'loginService']\n\n\nreturn {\n	scope: {\n		unavariable: '$'\n	},\n	tempalteUrl: '',\n	replace: treu,\n	: 'E',\n	link: contorlador\n};\n\n",
 			"settings":
 			{
-				"buffer_size": 3735,
-				"line_ending": "Windows",
-				"name": "<!DOCTYPE html>"
-			}
-		},
-		{
-			"file": "scripts/script.js",
-			"settings":
-			{
-				"buffer_size": 6249,
-				"line_ending": "Windows",
-				"name": "asd"
-			}
-		},
-		{
-			"file": "styles/styles.css",
-			"settings":
-			{
-				"buffer_size": 1607,
+				"buffer_size": 222,
 				"line_ending": "Windows"
 			}
 		}
@@ -825,18 +807,22 @@
 	"expanded_folders":
 	[
 		"/D/git/clients/3dgrapher.xyz",
+		"/D/git/clients/3dgrapher.xyz/scripts",
 		"/D/git/clients/3dgrapher.xyz/styles",
 		"/D/git/clients/3dgrapher.xyz/styles/fa",
 		"/D/git/clients/3dgrapher.xyz/styles/fa/css"
 	],
 	"file_history":
 	[
+		"/D/git/clients/3dgrapher.xyz/index.html",
+		"/D/git/clients/3dgrapher.xyz/styles/styles.css",
+		"/D/git/clients/3dgrapher.xyz/scripts/script.js",
+		"/D/git/clients/3dgrapher.xyz/scripts/three.min.js",
 		"/D/git/clients/3dgrapher.xyz/scripts/scrollto.js",
 		"/D/git/clients/3dgrapher.xyz/scripts/jquery.js",
 		"/D/git/clients/3dgrapher.xyz/nurbs.html",
 		"/D/git/clients/3dgrapher.xyz/scripts/mathjs.js",
 		"/D/git/clients/3dgrapher.xyz/scripts/OrbitControls.js",
-		"/D/git/clients/3dgrapher.xyz/styles/styles.css",
 		"/C/Users/Noel/Desktop/noel.txt",
 		"/D/WAMP/www/warriots/src/modulos/seleccion-de-raza/seleccion-de-raza.php",
 		"/D/WAMP/www/warriots/src/modulos/seleccion-de-raza/css/seleccion-de-raza.scss",
@@ -955,10 +941,7 @@
 		"/D/WAMP/www/warriots/src/hola.html",
 		"/D/WAMP/www/warriots/target/bootstrap.php",
 		"/D/WAMP/www/warriots/src/global/core/css/admin.scss",
-		"/D/WAMP/www/warriots/src/global/core/php/rules/login.php",
-		"/D/WAMP/www/warriots/src/global/core/php/dao/dao.php",
-		"/D/WAMP/www/warriots/src/global/core/php/rules/rules.php",
-		"/D/WAMP/www/warriots/src/global/core/js/global.js"
+		"/D/WAMP/www/warriots/src/global/core/php/rules/login.php"
 	],
 	"find":
 	{
@@ -981,6 +964,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"canvas",
 			"30px",
 			"Ydata",
 			"20px",
@@ -1107,8 +1091,7 @@
 			"getPrendasByFil",
 			".genero",
 			"ocasion",
-			"Vete",
-			"Dones"
+			"Vete"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -1254,94 +1237,34 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "index.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3735,
+						"buffer_size": 222,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2471,
-								2471
+								91,
+								91
 							]
 						],
 						"settings":
 						{
-							"auto_name": "<!DOCTYPE html>",
-							"syntax": "Packages/PHP/PHP.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 469.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "scripts/script.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 6249,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								5829,
-								5829
-							]
-						],
-						"settings":
-						{
-							"auto_name": "asd",
 							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 3462.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "styles/styles.css",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1607,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1428,
-								1428
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/CSS/CSS.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 931.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
 					"type": "text"
 				}
 			]

@@ -65,9 +65,9 @@
 			</div>
 
 			<div>
-				Now that you know we draw points, set how much separated should be the points between them (A smaller number means more points, so, you can see a better function approximation):<br>
-				Separation in X: <input id="incrementx" type="text" value="0.3"><br>
-				<span class="Ydata">Separation in Y: <input id="incrementy" type="text" value="0.3"></span>
+				Now that you know we draw points, set how much separated should be the points between them (A smaller number means more points, so, you could see a better function approximation, BUT, more points means more time waiting for the graph):<br>
+				Separation in X: <input id="incrementx" type="text" value="0.1"><br>
+				<span class="Ydata">Separation in Y: <input id="incrementy" type="text" value="0.1"></span>
 			</div>
 
 			<div>
@@ -99,11 +99,11 @@
 		<div class="credits">by @BrodaNoel</div>
 	</div>
 
-	<div class="canvas hide">
-		<span class="loading">Loading...</span>
-	</div>
+	<div class="canvas hide"></div>
 
 	<div class="return hide"><i class="fa fa-arrow-up"></i> RETURN <i class="fa fa-arrow-up"></i></div>
+
+	<div class="loading hide">Loading...</div>
 
 	<script>
 		$(document).ready(function(){
@@ -118,9 +118,15 @@
 			};
 
 			$('.draw').click(function(){
-				$('.canvas, .return').show();
+				$('.canvas, .return, .loading').show();
 				continueRendering = true;
-				setTimeout(draw, 100);
+				setTimeout(
+					function(){
+						draw();
+						$('.loading').hide();
+					},
+					100
+				);
 			});
 
 			$('.return').click(function(){
